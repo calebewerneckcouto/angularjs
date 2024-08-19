@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        .login-container {
+            padding-top: 100px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <form id="formulario" method="post" name="formulario" action="/angularjs_spring_mvc/j_spring_security_check">
+            <label for="j_username">Login</label>
+            <input type="text" name="j_username" id="j_username" />
+            
+            <label for="j_password">Senha</label>
+            <input type="password" name="j_password" id="j_password" />
+            
+            <button type="submit" id="buttonLogin">Entrar</button>
+        </form>
+    </div>
+</body>
+</html>
